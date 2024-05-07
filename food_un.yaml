@@ -1,0 +1,9 @@
+    #    copy this file to Yolo8/ultralytics/cfg/datasets
+
+    path: /FoodUN/Data/Yolo/v1  # dataset root dir
+    train: images
+    val: images
+
+    # Classes
+    nc: 4  # number of classes
+    names: ['WP','HW','GB','DW']  # class names
